@@ -10,7 +10,7 @@ db.catch(err => debug("Error connecting to DB: " + err));
 debug('Pending DB connection');
 
 require("./users")(db);
-//require("./branchs")(db);
+require("./blogs")(db);
 //require("./flowers")(db);
 
 
